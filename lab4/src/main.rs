@@ -120,9 +120,9 @@ fn main() {
 
     framebuffer.set_background_color(0x333355);
 
-    let mut translation = Vec3::new(300.0, 200.0, 0.0);
+    let mut translation = Vec3::new(400.0, 300.0, 0.0);
     let mut rotation = Vec3::new(0.0, 0.0, 0.0);
-    let mut scale = 100.0f32;
+    let mut scale = 150.0f32;
 
     let obj = Obj::load("../assets/models/spaceship.obj").expect("Failed to load obj");
     let vertex_arrays = obj.get_vertex_array(); 
